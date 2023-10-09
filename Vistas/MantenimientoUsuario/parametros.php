@@ -314,6 +314,7 @@ $usuario = $_SESSION['usuario'];
 
         }
 
+        
 
         function Insertar_Parametro() {
             $("#btn-agregar").click(function() {

@@ -25,6 +25,7 @@ switch ($_GET["op"]) {
         $datos = $com->get_parametros();
         echo json_encode($datos);
         break;
+        
 
     case "InsertParametros":
         $datos = $com->insert_parametros($body["PARAMETRO"], $body["VALOR"]/* , $body["ID_USUARIO"], $body["CREADO_POR"], $body["MODIFICADO_POR"] *//* , $body["FECHA_CREACION"], $body["FECHA_MODIFICACION "]*/);
