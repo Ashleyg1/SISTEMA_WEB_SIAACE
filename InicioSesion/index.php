@@ -99,6 +99,7 @@ $permisos = $permisosUsuarios->get_Permisos_Usuarios($id_rol, $id_objeto_Usuario
                                 
                                 echo '<a class="nav-link" href="../roles.php"><i class="fas fa-user-lock"></i> Roles</a>';
                                 echo '<a class="nav-link" href="../Vistas/MantenimientoUsuario/permisos.php"><i class="fas fa-key"></i> Permisos</a>';
+                                echo '<a class="nav-link" href="../Vistas/MantenimientoUsuario/parametros.php"><i class="fas fa-key"></i> Parametros</a>';
                                 echo '<a class="nav-link" href="../Vistas/MantenimientoUsuario/objetos.php"><i class="fas fa-object-group"></i> Objetos</a>';
                                 
                                 echo '</nav>';
